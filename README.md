@@ -16,7 +16,12 @@ SOC-IR-Playbooks/
     ├── phishing_ir_playbook.md
     ├── insider_threat_ir_playbook.md
     ├── data_exfiltration_ir_playbook.md
-    └── credential_compromise_ir_playbook.md
+    ├── credential_compromise_ir_playbook.md
+    ├── ddos_ir_playbook.md
+    ├── cloud_account_compromise_ir_playbook.md
+    ├── malware_endpoint_ir_playbook.md
+    ├── third_party_vendor_compromise_ir_playbook.md
+    └── physical_security_ir_playbook.md
 ```
 
 ---
@@ -45,6 +50,11 @@ Each playbook also links back to the specific `SOC-Triage-Practice` case(s) that
 | [Insider Threat](Playbooks/insider_threat_ir_playbook.md) | Collection (T1005/T1530), Exfiltration (T1052/T1567) | Case_017 (Alert AD), Case_015 (Alert V) |
 | [Data Exfiltration](Playbooks/data_exfiltration_ir_playbook.md) | Exfiltration (T1041/T1048), C2 (T1071) | Case_017 (Alert AE), Case_015 (Alert U) |
 | [Credential Compromise](Playbooks/credential_compromise_ir_playbook.md) | Credential Access (T1003/T1110/T1558) | Case_005, Case_006, Case_013 (Alert N), Case_019/020 |
+| [DDoS](Playbooks/ddos_ir_playbook.md) | Impact — Availability (T1498/T1499) | Case_016 (Alert AA context), drill practice |
+| [Cloud Account Compromise](Playbooks/cloud_account_compromise_ir_playbook.md) | Cloud Accounts (T1078.004), Additional Roles (T1098.003) | Drill practice (cloud OAuth/admin-role scenarios) |
+| [Malware / Endpoint Infection](Playbooks/malware_endpoint_ir_playbook.md) | LOLBins (T1218), Process Injection (T1055) | Case_008, Case_011 (Alert I), Case_016 (Alert Y) |
+| [Third-Party / Vendor Compromise](Playbooks/third_party_vendor_compromise_ir_playbook.md) | Supply Chain (T1195), Trusted Relationship (T1199) | Case_010 (Alert F reasoning), drill practice |
+| [Physical Security Incident](Playbooks/physical_security_ir_playbook.md) | Valid Accounts via physical misuse (T1078), Hardware Additions (T1200) | Case_015 (Alert V), drill practice |
 
 ---
 
